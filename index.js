@@ -15,6 +15,7 @@ function updateResult() {
 
     if(!inputValue) {
         output.innerText = 'Please enter some text';
+        alert("Please input a value")
         return;
     }
     if(check(inputValue)) {
